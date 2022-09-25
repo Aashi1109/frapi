@@ -1,0 +1,20 @@
+{
+  "name": "locker_api",
+  "version": "1.0.0",
+  "description": "API to check, open and lock the locker",
+  "main": "api.js",
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "npm install && netlify-lambda build src"
+  },
+  "author": "Ashish Pal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.0.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
